@@ -44,7 +44,7 @@ double difference();
 int getAmount();
 void setAmount( int amount);
 }
-final class Cheese implements Products{
+class Cheese implements Products{
     private int price;
     private int amount;
 
@@ -71,7 +71,7 @@ final class Cheese implements Products{
         return price / (double) amount;
     }
 }
-final class Apple implements Products{
+class Apple implements Products{
     private int price;
     private int amount;
 
@@ -98,7 +98,7 @@ final class Apple implements Products{
         return price / (double) amount;
     }
 }
-final class Meet implements Products{
+class Meet implements Products{
     int price;
     int amount;
 
